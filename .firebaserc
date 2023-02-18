@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "chat-now-khalis": {
+      "hosting": {
+        "getstream-chat-angular-example": [
+          "chat-now-khalis"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "chat-now-khalis"
+  }
+}
