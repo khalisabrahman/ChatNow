@@ -11,7 +11,8 @@ export const environment = {
     authDomain: 'chat-now-khalis.firebaseapp.com',
     messagingSenderId: '417463291561',
   },
-  production: false
+  production: false,
+  apiUrl: 'https://us-central1-chat-now-khalis.cloudfunctions.net'
 };
 
 /*

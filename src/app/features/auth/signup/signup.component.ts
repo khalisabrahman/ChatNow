@@ -27,6 +27,7 @@ export class SignupComponent implements OnInit {
   }
 
   signUp() {
+    console.log(this.form)
     this.auth.signUp(this.form.value).subscribe({
       next: () => this.router.navigate(['chat']),
       error: (error) => this.snackbar.open(error.message)

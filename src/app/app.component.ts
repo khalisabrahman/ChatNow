@@ -12,7 +12,9 @@ export class AppComponent {
   constructor(
     public auth: AuthService,
     private router: Router
-    ) {}
+    ) {
+      console.log(this.auth)
+    }
 
   signOut() {
     this.auth.signOut().subscribe({
