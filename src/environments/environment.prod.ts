@@ -8,5 +8,8 @@ export const environment = {
     messagingSenderId: '417463291561',
   },
   production: true,
-  apiUrl: 'https://us-central1-chat-now-khalis.cloudfunctions.net'
+  apiUrl: 'https://us-central1-chat-now-khalis.cloudfunctions.net',
+  stream: {
+    key: 'xas7c4b8kzu9'
+  }
 };
